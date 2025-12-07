@@ -262,7 +262,7 @@ Passage:
     st.info("Processing with Gemini…")
 
     try:
-        output = gemini_generate(api_key, "gemini-1.5-pro", prompt)
+        output = gemini_generate(api_key, "gemini-2.0-flash", prompt)
         st.success("Done!")
 
         # ======================================
